@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Jimmy's Garage | Conócenos</title>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="responsive-nav.css">
+    <link href="conocenos.css" rel="stylesheet">
+</head>
+<body>
+	<div class="mobileMenu">
+        <img src="img/menu.png" class="img-responsive ham-image" onclick="nav.toggle();">
+		<img src="img/logo.png" class="img-responsive logo-image">
+        <nav class="nav-collapse">
+          <ul>
+            <li><a href="#">Servicio</a></li>
+            <li><a href="#">Beneficios</a></li>
+            <li><a href="#">Galeria</a></li>
+            <li><a href="#">Venta de Vehiculos</a></li>
+            <li style="padding-bottom: 20px;"><a href="#">Conócenos</a></li>
+          </ul>
+        </nav>
+	</div>
+	<div class="menu-background">
+	    <div class="nav-logo" id="nav-1">
+			<img src="img/logo.png" class="img-responsive logo-image">
+		</div>
+	    <div class="nav-container" id="nav-2">
+	       	<div class="nav-4">
+	        	<h1 href="" class="menu-text text-center">Servicio</h1>
+	        </div>
+			<div class="nav-4">
+			    <h1 href="" class="menu-text text-center">Beneficios</h1>
+			</div>
+			<div class="nav-4">
+			    <h1 href="" class="menu-text text-center">Galeria</h1>
+			</div>
+	    </div>
+		<div class="nav-container" id="nav-3">
+			<div class="nav-4">
+			    <h1 href="" class="menu-text text-center">Tienda</h1>
+			</div>
+			<div class="nav-4">
+			    <h1 href="" class="menu-text text-center">Venta de Vehiculos</h1>
+			</div>
+			<div class="nav-4">
+			    <h1 href="" class="menu-text text-center">Conócenos</h1>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+        <div class="row">
+        	<div class="col-xs-12 banner-img">
+        	</div>
+        </div>
+        <div class="row row-centered">
+        	<div class="col-xs-11 col-md-10 col-lg-8 col-centered div-margin">
+        		<h1 class="titulo-simple">CONOCE NUESTRA HISTORIA</h1>
+            	<p class="texto-simple">Somos una empresa que se encarga de mantener segura tu inversión, darle mantenimiento, y tenerla lista siempre que la necesites.</p>
+            	<button type="button" class="boton">Leer M&aacute;s</button>
+        	</div>
+        </div>
+				<div class="row">
+            <div class="col-xs-12 content-img-4"></div>
+        </div>
+				<div class="row row-centered">
+        	<div class="col-xs-11 col-md-8 col-lg-6 col-centered div-margin">
+        		<h1 class="titulo-simple">DEJANOS UN MENSAJE</h1>
+						<form method="post" action="enviar_correo.php">
+							<input type="text" name="correo" placeholder="Correo Electrónico"><br>
+							<input type="text" name="asunto" placeholder="Asunto"><br>
+							<input type="text" name="mensaje" placeholder="Mensaje" class="mensaje">
+							<input type="submit" class="boton" value="Enviar">
+						</form>
+        	</div>
+        </div>
+				<div class="row row-centered footer-background">
+            <div class="col-xs-11 col-md-10 col-lg-10 col-centered div-margin">
+                <div class="col-md-4" style="padding-bottom: 20px;">
+                    <h1 class="footer-text">
+                        <span class="titles"><strong>Ubicaci&oacute;n</strong></span><br/>
+                        Terra Business Park<br/>
+                        1er Retorno Universitario #1<br/>
+                        Bodega 45&ordf; <br/>
+                        Col. La Pradera<br/>
+                        Municipio El Marques<br/>
+                        Queretaro, Qro.<br/>
+                        C.P. 76269<br/><br/>
+                        <span class="titles"><strong>Contacto</strong></span><br/>
+                        (442) 543 0965<br/>
+                        <span class="mobileAdress">contacto@jimmysgarage.com.mx</span>
+                    </h1>
+                </div>
+                <div class="col-md-8">
+                    <div id="googleMap" class="gmaps"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-centered subfooter-background">
+            <div class="col-xs-12">
+                <h1 class="subfooter-text">Jimmy's Garage</h1>
+            </div>
+        </div>
+    </div>
+    <script src="responsive-nav.min.js"></script>
+    <script>
+        var nav = responsiveNav(".nav-collapse");
+
+    </script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+    function initialize() {
+      var mapProp = {
+        center:new google.maps.LatLng(20.659762, -100.332472),
+        zoom:15,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+      var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</body>
+</html>
