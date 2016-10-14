@@ -1,0 +1,499 @@
+@font-face{
+	font-family: "Futwora Pro";
+	src: url('fonts/fut.otf') format('opentype');
+}
+
+@font-face{
+	font-family: "Museo Slab";
+	src: url('fonts/museo.otf') format('opentype');
+}
+
+@font-face{
+	font-family: "Pacifico";
+	src: url('fonts/pacifico.ttf') format('truetype');
+}
+
+body, html{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+ul{
+	align-items: center;
+}
+
+li{
+	padding: 10px;
+	text-align: center;
+}
+
+a{
+	color: #FFF;
+	font-family: Pacifico;
+	font-size: 22px;
+}
+
+a:hover{
+	opacity: .8;
+	color: #FFF;
+	font-family: Pacifico;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.container{
+	width:100%;
+	margin: 0px;
+}
+
+.separacion{
+	margin-top: 60px;
+}
+
+.nomapa{
+	margin: 0;
+	padding: 0;
+}
+
+.menu-background{
+	width: 100%;
+	position:fixed;
+    background-color: rgba(0,0,0,0.7);
+	z-index: 100;
+	align-items: center;
+	display: none;
+}
+
+.mobileMenu{
+	z-index: 100;
+	width: 100%;
+	position: fixed;
+	display: block;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.nav-container{
+	position: relative;
+	width: 100%;
+	float: left;
+}
+
+.nav-logo{
+	position: relative;
+	width: 100%;
+	float: left;
+}
+
+.nav-4{
+	position: relative;
+	width: 33.33%;
+	float: left;
+}
+
+.logo-image{
+	width: auto;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 61px;
+	height: 90px;
+}
+
+.menu-element{
+	width: 22%;
+}
+
+.menu-text{
+	position: relative;
+	text-align: center;
+	font-size: 22px;
+	color:#f5f5f5;
+	font-family: Pacifico;
+}
+
+.logo-element{
+	width: 20%;
+	display: block;
+}
+
+.banner-img{
+	width: 100%;
+	height: 500px;
+	background-image: url("img/banner.jpg");
+	background-position: 43% 0%;
+	background-size: cover;
+}
+
+.content-img-1{
+	width: 100%;
+	height: 600px;
+	background: url("img/img_01.jpg") no-repeat center center scroll;
+	background-position: 45% 0%;
+	-webkit-backface-visibility: hidden;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	margin: 0px;
+}
+
+.content-img-2{
+	width: 100%;
+	height: 600px;
+	background: url("img/img_02.jpg") no-repeat center center scroll;
+	background-position: 50% 0%;
+	-webkit-backface-visibility: hidden;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	margin: 0px;
+}
+
+.content-img-3{
+	width: 100%;
+	height: 600px;
+	background: url("img/img_04.jpg") no-repeat center center scroll;
+	background-position: 70% 0%;
+	-webkit-backface-visibility: hidden;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	margin: 0px;
+}
+
+.content-img-4{
+	width: 100%;
+	height: 600px;
+	background: url("img/img_05.jpg") no-repeat center center scroll;
+	background-position: 50% 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	margin: 0px;
+}
+
+.content-img-5{
+	width: 100%;
+	height: 600px;
+	background: url("img/img_06.jpg") no-repeat center center scroll;
+	background-position: 0 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	margin: 0px;
+}
+
+.img{
+	display: block;
+	width: 50%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+}
+
+.boton{
+	position: relative;
+	display: block;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 2px solid #D32F2F;
+	background-color: #fff;
+	color: #D32F2F;
+	font-size: 20px;
+	margin: 0 auto;
+	font-family: Museo Slab;
+}
+
+.ham-image{
+	margin-top: 25px;
+	margin-left: 25px;
+	width: 10%;
+	float: left;
+	width: 36px;
+	height: 36px;
+}
+
+.text-container{
+	margin-top: 40px;
+	margin-bottom: 60px;
+	font-family: Helvetica;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	line-height: 270%;
+	font-family: Museo Slab;
+}
+
+.texto-simple{
+	font-family: Museo Slab;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.titulo-simple{
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 32px;
+	color: #D32F2F;
+	font-family: Futwora Pro;
+}
+
+.footer{
+	font-family: Museo Slab;
+	color: #FFF;
+}
+
+.left-footer{
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 40%;
+}
+
+.right-footer{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+	width: 60%;
+}
+
+.footer-text{
+	font-size: 18px;
+	line-height: 150%;
+	font-weight: 10;
+	color: #90A4AE;
+	font-family: Museo Slab;
+}
+
+.subfooter-text{
+	width: 100%;
+	opacity: .65;
+	padding-bottom: 20px;
+	color:#546E7A;
+	font-size: 24px;
+	font-family: Pacifico;
+}
+
+.subfooter-background{
+	background-color: #37474F;
+}
+
+.titles{
+	font-size: 32px;
+	line-height: 220%;
+	color: #fff;
+}
+
+.packet-container{
+	margin-top: 80px;
+}
+
+.titulo-servicios{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	margin: 0 auto;
+	color: #D32F2F;
+	font-family: Museo Slab;
+}
+
+.texto-servicios{
+	width: 100%;
+	line-height: 200%;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Museo Slab;
+}
+
+.footer-background{
+	background-color: #455A64;
+}
+
+.nav-4 h1{
+	font-size: 22px;
+}
+
+.mobileMenu{
+	display: block;
+}
+
+#nav-1{
+	order: 1;
+}
+
+#nav-2{
+	order: 2;
+}
+
+#nav-3{
+	order: 3;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.div-margin{
+	margin: 40px 0;
+}
+
+#candado{
+	display: none;
+}
+
+#poli{
+	display: none;
+}
+
+.gmaps{
+	width:95%;
+	height:350px;
+	margin: 20px auto;
+}
+
+.mobileAdress{
+		font-size: 16px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+	.content-img-1{
+		background-attachment: fixed;
+	}
+
+	.content-img-2{
+		background-attachment: fixed;
+	}
+
+	.content-img-3{
+		background-attachment: fixed;
+	}
+
+	.content-img-4{
+		background-attachment: fixed;
+	}
+
+	.content-img-5{
+		background-attachment: fixed;
+	}
+
+	.mobileAdress{
+		font-size: 18px;
+	}
+
+	.texto-simple{
+		font-family: Museo Slab;
+		margin-bottom: 40px;
+		text-align: center;
+		font-size: 24px;
+	}
+
+	.titulo-simple{
+		margin-bottom: 50px;
+		text-align: center;
+		font-size: 42px;
+		color: #D32F2F;
+		font-family: Futwora Pro;
+	}
+
+	.gmaps{
+		width:85%;
+	}
+
+	#candado{
+		display: block;
+	}
+
+	#poli{
+		display: block;
+	}
+
+	.separacion{
+		margin-top: 0;
+	}
+
+	.logo-image{
+		padding-left: 0;
+		padding-right: 0;
+		width: auto;
+		margin: 0 auto;
+		height: 90px;
+	}
+
+	.mobileMenu{
+		display: none;
+	}
+
+	.banner-img{
+		background-position: 40% 95%;
+		height: 700px;
+	}
+
+	.menu-background{
+		display: flex;
+	}
+	
+	.menu-text{
+		margin-top: 0px;
+	}
+
+	.nav-4 h1{
+		font-size: 20px;
+		width: 100%;
+	}
+
+	#nav-1{
+		width: 16%;
+		order: 2;
+	}
+
+	#nav-2{
+		width: 42%;
+		order: 1;
+	}
+
+	#nav-3{
+		order: 3;
+		width: 42%;
+	}
+
+	.nav-logo{
+		width: 16%;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 998px) { 
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+
+	.banner-img{
+		height: 800px;
+	}
+
+}
+
+
+
+
+
