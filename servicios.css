@@ -47,6 +47,94 @@ a:hover{
 	margin: 0px;
 }
 
+.fondo-claro{
+	background-color: #F6F5F2;
+	margin-top: 90px;
+}
+
+.fondo-blanco{
+	background-color: #fff;
+}
+
+.imagen-cover {
+	height: 40em;
+	background-image: url('img/img_02.jpg');
+	background-position: center center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	border: solid 2em #F6F5F2;
+}
+
+.imagen-01 {
+	height: 35em;
+	background-image: url('img/pintura.jpg');
+	background-position: center center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	border: solid 2em #fff;
+}
+
+.imagen-02 {
+	height: 35em;
+	background-image: url('img/mecanica.jpg');
+	background-position: center center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	border: solid 2em #fff;
+}
+
+.imagen-03 {
+	height: 35em;
+	background-image: url('img/vestidura.jpg');
+	background-position: center center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	border: solid 2em #fff;
+}
+
+.imagen-04 {
+	height: 35em;
+	background-image: url('img/img_04.jpg');
+	background-position: center center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	border: solid 2em #fff;
+}
+
+.cover-txt {
+	margin-top: 0em;
+	margin-bottom: 2em;
+}
+
+.cover-txt h1{
+	font-family: 'Questrial', sans-serif;
+	font-size: 2.0em;
+	color: #424242;
+}
+
+.cover-txt p{
+	font-family: 'Questrial', sans-serif;
+	font-size: 1.2em;
+	color: #757575;
+}
+
+.info {
+	margin-top: 0em;
+	margin-bottom: 2em;
+}
+
+.info h1{
+	font-family: 'Questrial', sans-serif;
+	font-size: 2.0em;
+	color: #424242;
+}
+
+.info p{
+	font-family: 'Questrial', sans-serif;
+	font-size: 1.2em;
+	color: #757575;
+}
+
 .separacion{
 	margin-top: 60px;
 }
@@ -448,7 +536,7 @@ a:hover{
 	.menu-background{
 		display: flex;
 	}
-	
+
 	.menu-text{
 		margin-top: 0px;
 	}
@@ -477,23 +565,28 @@ a:hover{
 		width: 16%;
 	}
 
+	.info {
+		margin-top: 12em;
+		margin-bottom: 0em;
+	}
+
+	.cover-txt {
+		margin-top: 13em;
+		margin-bottom: 0em;
+	}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media screen and (min-width: 998px) { 
+@media screen and (min-width: 998px) {
 
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1200px) {
 
 	.banner-img{
 		height: 800px;
 	}
 
 }
-
-
-
-
-
