@@ -1,0 +1,136 @@
+/* --- FONTS ---- */
+@font-face {
+font-family: 'Avenir Black';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/AvenirLTStd-Black.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Book';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/AvenirLTStd-Book.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Heavy';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/AvenirLTStd-Heavy.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Light';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/AvenirLTStd-Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 65 Medium'), url('../fonts/AvenirLTStd-Medium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Roman';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/AvenirLTStd-Roman.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Black Oblique';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/AvenirLTStd-BlackOblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Book Oblique';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/AvenirLTStd-BookOblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Heavy Oblique';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/AvenirLTStd-HeavyOblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Light Oblique';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/AvenirLTStd-LightOblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Medium Oblique';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/AvenirLTStd-MediumOblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Roman Oblique';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/AvenirLTStd-Oblique.woff') format('woff');
+}
+
+* {
+  font-family: 'Avenir Medium';
+}
+
+.titulo {
+  font-family: 'Avenir Black';
+  font-size: 2.5em;
+}
+
+.subtitulo {
+  font-family: 'Avenir Heavy';
+  font-size: 1.4em;
+}
+
+.texto {
+  font-family: 'Avenir Light';
+  font-size: 1em;
+  color: #666;
+}
+
+.mobile-nav {
+  position: absolute;
+  display: none;
+}
+
+@media (min-width: 544px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

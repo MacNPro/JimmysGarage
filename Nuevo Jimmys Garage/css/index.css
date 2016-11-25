@@ -1,0 +1,129 @@
+
+#cover{
+  height: calc(100vh - 70px);
+  min-height: 480px;
+  background-color: #999;
+  margin-top: 70px;
+  background: url("../imgs/banner.jpg") no-repeat center center scroll;
+	background-position: 45% 0%;
+	-webkit-backface-visibility: hidden;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.cover-content{
+  padding-top: 25vh;
+  color: #fff;
+}
+
+.cover-content h1 {
+  font-size: 3.5em;
+  margin: 0 5%;
+}
+
+.cover-content p {
+  font-size: 1.5em;
+  margin: 0 2.5%;
+}
+
+.home-cuadro {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.home-cuadro h1 {
+  font-size: 1.2em;
+  font-family: 'Avenir Heavy'
+}
+
+.home-img{
+  width: 40%;
+  margin: 0 30% 20px 30%;
+}
+
+#servicios {
+  background-color: #f5f5f5;
+}
+
+.servicios-content h1 {
+  font-size: 1.5em
+}
+
+.servicios-content p {
+  font-size: 1em;
+  margin-bottom: 50px;
+}
+
+.servicios-content img {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+#venta {
+  background-color: #fff;
+}
+
+.venta-content h1 {
+  font-size: 1.5em
+}
+
+.venta-content p {
+  font-size: 1em;
+  margin-bottom: 60px;
+}
+
+.venta-content img {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+#contactanos {
+  background-color: #373A3C;
+}
+
+.contactanos-content {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contactanos-content h1 {
+  color: #fff;
+}
+
+.contactanos-content p {
+  color: #fff;
+}
+
+#nosotros {
+  background-color: #f5f5f5;
+}
+
+.nosotros-content {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.nosotros-content h1 {
+
+}
+
+.nosotros-content p {
+
+}
+
+@media (min-width: 544px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
